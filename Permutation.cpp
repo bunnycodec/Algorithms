@@ -1,7 +1,28 @@
+TYPE 1 ...
 // Permutation ...
-
 #include<bits/stdc++.h>
+using namespace std;
 
+int main()
+{
+	string word = "anyword";
+	sort(word.begin(), word.end());
+	
+	int i=1;
+
+	do{
+			cout << i << ". " << word << "\n";
+			i++;
+	}while(next_permutation(word.begin(), word.end()));
+
+}
+
+
+
+
+TYPE 2 ...
+// Permutation ...
+#include<bits/stdc++.h>
 using namespace std;
 
 int arr[10];
